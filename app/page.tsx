@@ -13,8 +13,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
       </svg>
     ),
-    title: 'Multi-currency wallets',
-    description: 'Gestiona VES, USD y USDT desde una sola app. Sin fricciones, sin conversiones manuales.',
+    title: 'Cuentas en múltiples monedas',
+    description: 'Registra tus saldos en VES, USD y USDT desde una sola app. Sin fricciones, sin conversiones manuales.',
     color: 'primary',
   },
   {
@@ -63,8 +63,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
-    title: 'Portafolio de inversiones',
-    description: 'Rastrea el rendimiento de tus activos y visualiza tu patrimonio neto en tiempo real.',
+    title: 'Seguimiento de patrimonio',
+    description: 'Visualiza el valor total de tus ahorros y activos personales en tiempo real.',
     color: 'purple',
   },
 ]
@@ -128,7 +128,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-6 text-base sm:text-lg text-muted max-w-xl mx-auto leading-relaxed">
-            La app de finanzas personales para venezolanos. Gestiona VES, USD y USDT, sigue las tasas BCV y alcanza tus metas financieras.
+            La app de registro de finanzas personales para venezolanos. Anota tus ingresos y gastos en VES, USD y USDT, consulta las tasas BCV y alcanza tus metas de ahorro.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center" id="download">

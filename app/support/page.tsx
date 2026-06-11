@@ -37,7 +37,15 @@ const faqs = [
   },
   {
     q: '¿Qué monedas son compatibles?',
-    a: 'Actualmente CIMA soporta Bolívares (VES), Dólares estadounidenses (USD) y Tether (USDT). Estamos trabajando en agregar más monedas en futuras actualizaciones.',
+    a: 'Actualmente CIMA soporta Bolívares (VES), Dólares estadounidenses (USD) y USDT como denominaciones de seguimiento. USDT es ampliamente utilizado en Venezuela como unidad de cuenta para ahorros en dólares estables; en CIMA simplemente anotas cuánto tienes o gastaste en esa denominación, igual que lo harías en una hoja de cálculo. Estamos trabajando en agregar más monedas en futuras actualizaciones.',
+  },
+  {
+    q: '¿CIMA compra, vende o almacena criptomonedas?',
+    a: 'No. CIMA es exclusivamente un registro de finanzas personales. No ejecuta ninguna transacción real ni se conecta a ninguna blockchain, exchange ni billetera de criptomonedas. Si registras un saldo en USDT, es simplemente una anotación numérica en tu diario financiero, sin ninguna operación real detrás.',
+  },
+  {
+    q: '¿CIMA se conecta a mi cuenta bancaria?',
+    a: 'No. CIMA no se conecta a ninguna cuenta bancaria, tarjeta de crédito ni institución financiera. Toda la información la introduces tú manualmente. CIMA funciona como un cuaderno digital inteligente, no como una app de banca.',
   },
 ]
 

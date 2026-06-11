@@ -5,12 +5,12 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'CIMA — Control de Finanzas Personales',
-  description: 'Gestiona tu dinero en múltiples monedas (VES, USD, USDT). Presupuestos inteligentes, tasas BCV en tiempo real y asistente financiero con IA.',
-  keywords: 'finanzas personales, Venezuela, VES, USD, USDT, control de gastos, presupuesto',
+  description: 'Registra tus ingresos y gastos en múltiples monedas (VES, USD, USDT). Presupuestos, tasas BCV en tiempo real y asistente financiero con IA.',
+  keywords: 'finanzas personales, Venezuela, VES, USD, presupuesto, control de gastos, ahorro, registro de gastos',
   authors: [{ name: 'Simon Meza' }],
   openGraph: {
     title: 'CIMA — Take control of your finances',
-    description: 'Personal finance app for Venezuelan users managing money in multiple currencies.',
+    description: 'Personal finance tracker for Venezuelan users. Manually log income and expenses in multiple currencies. No bank connections.',
     type: 'website',
   },
 }

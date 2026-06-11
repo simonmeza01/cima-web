@@ -7,11 +7,24 @@ export const metadata: Metadata = {
 
 const sections = [
   {
+    title: '0. Naturaleza del servicio',
+    content: `CIMA es una aplicación de registro y seguimiento de finanzas personales. Es el equivalente digital de una libreta o hoja de cálculo donde el usuario anota manualmente sus ingresos y gastos.
+
+**CIMA no es:**
+• Una institución financiera, banco, casa de cambio ni bróker.
+• Una plataforma para comprar, vender, transferir ni custodiar criptomonedas u otros activos financieros.
+• Un servicio que se conecte a cuentas bancarias reales, billeteras blockchain o cualquier sistema de pagos externo.
+
+**Sobre las denominaciones de moneda:** CIMA permite registrar saldos y transacciones en VES (bolívares venezolanos), USD (dólares estadounidenses) y USDT. USDT se utiliza exclusivamente como **denominación de seguimiento**, una unidad de cuenta ampliamente usada en la economía venezolana para guardar ahorros en dólares estables. CIMA no ejecuta ninguna transacción en blockchain ni interactúa con ningún protocolo de criptomonedas. El usuario simplemente anota cuánto tiene o gastó en esa denominación, de la misma forma que lo haría en una hoja de cálculo.
+
+Toda la información financiera almacenada en CIMA es **auto-reportada por el usuario**. CIMA no accede, lee ni modifica ninguna cuenta bancaria, cartera de inversiones real ni activo externo.`,
+  },
+  {
     title: '1. Información que recopilamos',
     content: `Recopilamos la siguiente información para proporcionar y mejorar nuestros servicios:
 
-• **Datos de cuenta:** dirección de correo electrónico y contraseña cifrada (o token de Google Sign-In si autentificas con Google).
-• **Datos financieros:** transacciones, saldos de billeteras y presupuestos que tú mismo introduces en la app. CIMA no accede a ninguna cuenta bancaria ni datos financieros externos.
+• **Datos de cuenta:** dirección de correo electrónico y contraseña cifrada, token de Google Sign-In (si autentificas con Google), o token de Sign in with Apple (si autentificas con Apple).
+• **Datos financieros:** transacciones, saldos y presupuestos que **tú mismo introduces manualmente** en la app. CIMA no accede a ninguna cuenta bancaria, cartera de criptomonedas ni dato financiero externo.
 • **Token de notificaciones push:** generado por Firebase Cloud Messaging para enviarte alertas de presupuesto. Solo se usa para notificaciones.
 • **Datos de uso y analíticas:** información anónima sobre cómo usas la app (pantallas visitadas, funciones utilizadas) para mejorar la experiencia.`,
   },
@@ -86,6 +99,14 @@ Para ejercer estos derechos, contáctanos en simonmcode01@gmail.com.`,
 Email: simonmcode01@gmail.com
 Aplicación: CIMA — Control, Ingresos, Monedas, Ahorros`,
   },
+  {
+    title: '12. Cumplimiento con App Store',
+    content: `CIMA cumple con las directrices de la App Store de Apple:
+
+• **Inicio de sesión:** CIMA ofrece inicio de sesión con correo electrónico/contraseña, Google Sign-In y Sign in with Apple. Ninguna de estas opciones recopila datos más allá del nombre y correo electrónico del usuario.
+• **Datos sensibles:** CIMA no maneja datos financieros regulados. Toda la información es introducida manualmente por el usuario y corresponde a anotaciones personales, no a operaciones financieras reales.
+• **Sin servicios regulados:** CIMA no provee servicios bancarios, de inversión, de cambio de divisas ni de custodia de activos. No está sujeta a regulación financiera de ningún tipo.`,
+  },
 ]
 
 export default function PrivacyPage() {
@@ -99,7 +120,7 @@ export default function PrivacyPage() {
             Última actualización: junio 2026 · Operado por Simon Meza
           </p>
           <div className="mt-6 rounded-xl border border-border bg-surface p-4 text-sm text-muted leading-relaxed">
-            Tu privacidad es fundamental para CIMA. Esta política explica qué datos recopilamos, cómo los usamos y cómo los protegemos. Leemos esta política como una promesa a nuestros usuarios, no como letra pequeña.
+            Tu privacidad es fundamental para CIMA. Esta política explica qué datos recopilamos, cómo los usamos y cómo los protegemos. CIMA es una aplicación de seguimiento de finanzas personales — no un servicio financiero regulado. Leemos esta política como una promesa a nuestros usuarios, no como letra pequeña.
           </div>
         </div>
 

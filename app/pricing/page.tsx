@@ -34,7 +34,7 @@ const plans = [
       'Presupuestos ilimitados',
       'Asistente financiero IA',
       'Escaneo de recibos',
-      'Portafolio de inversiones',
+      'Seguimiento de patrimonio personal',
       'Rastreador de suscripciones',
       'División de gastos',
       'Informe mensual de insights',
